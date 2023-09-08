@@ -1,0 +1,20 @@
+:root {
+    --led-green: #2cb67d;
+    --led-grey: #72757e;
+}
+
+.led-panel__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.led {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #72757e;
+}

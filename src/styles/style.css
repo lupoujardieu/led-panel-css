@@ -1,0 +1,33 @@
+@import "fonts.css";
+
+:root {
+    --bgd-color: #16161a;
+    --led-panel-border: #7f5af0;
+
+    --font-color: #fffffe;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bgd-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+}
+
+h1 {
+    font-family: "Playfair Display", sans-serif, serif;
+    color: var(--font-color);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.led-panel__wrapper {
+    width: 75%;
+    height: 60%;
+    border: var(--led-panel-border) solid 2px;
+}
